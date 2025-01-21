@@ -1,0 +1,3 @@
+SELECT MovieName
+FROM Movies
+WHERE MovieName LIKE '%Fight%' OR MovieName LIKE '%The%';
