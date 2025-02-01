@@ -1,0 +1,5 @@
+update Athletes
+set TeamAffiliation  = TeamAffiliation || ' - Legend'
+where OlympicParticipation > 4;
+select * from Athletes
+where OlympicParticipation > 4;
