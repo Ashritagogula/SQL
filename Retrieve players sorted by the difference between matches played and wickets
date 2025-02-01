@@ -1,0 +1,3 @@
+select player_name , (Matches_Played - Wickets_Taken) as Match_Wicket_difference
+from Indian_Cricket_Team
+order by Match_Wicket_difference desc;
